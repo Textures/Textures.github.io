@@ -1,11 +1,39 @@
 body{
   font-family: 'Oxygen', sans-serif;
-  background-image: URL("/Sites/textures.github.io/images/wallhaven-87843.png");
-  background-repeat: no-repeat;
 
 }
 
-h1, h3, p{
+.home{
+  background-image: URL("/Sites/textures.github.io/images/wallhaven-87843.png");
+  background-repeat: no-repeat;
+}
+
+.cv{
+  background-color: #00263e;
+}
+
+.static{
+  position:fixed;
+}
+
+h1{
+  color: white;
+}
+
+.top
+{
+  color:white;
+}
+
+.right{
+  float: right;
+}
+
+.left{
+  float:left;
+}
+
+.small{
   color: white;
 }
 
@@ -16,4 +44,62 @@ ul{
 
 a:hover{
   color:white;
+}
+
+.btn{
+  margin-bottom:10px;
+  border-style: :none;
+
+} 
+
+.panel-heading h2{
+  font-size: 30px;
+}
+
+/* make sidebar nav vertical */ 
+@media (min-width: 768px) {
+  .sidebar-nav .navbar .navbar-collapse {
+    padding: 0;
+    max-height: none;
+  }
+  .sidebar-nav .navbar ul {
+    float: none;
+    display: block;
+  }
+  .sidebar-nav .navbar li {
+    float: none;
+    display: block;
+  }
+  .sidebar-nav .navbar li a {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+}
+
+.navbar-inverse{
+  background-image: none;
+  background-color: #00263e;
+  border-style: none;
+}
+
+
+.padded-list{
+  padding:10px;
+}
+
+.unpadded{
+  padding:0;
+}
+.slightpad{
+  padding-left:8px;
+}
+
+.fa-wrench{
+  margin-right: 10px;
+}
+.fa-suitcase{
+  margin-right: 8px;
+}
+.fa-university{
+  margin-right: 4px;
 }
