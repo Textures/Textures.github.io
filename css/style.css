@@ -1,0 +1,9 @@
+body{
+  font-family: 'Oxygen', sans-serif;
+  background-image: URL("/Sites/textures.github.io/images/wallhaven-87843.png");
+  background-repeat: no-repeat;
+}
+
+h1, h3, p{
+  color: white;
+}
